@@ -1,16 +1,128 @@
-# React + Vite
+# Book Library Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app showcasing a collection of books using a reusable `BookCard` component, built with Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Header section with title and subtitle
+- Reusable `BookCard` component to display book details
+- Books list rendered using the `map()` method
+- Summary section showing total books and most common genre
+- Footer with author name, contact, and current year
 
-## React Compiler
+## Components
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **App.jsx**
+  - Stores the books data (array of objects)
+  - Renders the header, books list, summary, and footer
+  - Uses `map()` to render multiple `BookCard` components with a unique `key` prop
 
-## Expanding the ESLint configuration
+- **BookCard.jsx**
+  - Reusable component
+  - Accepts `title`, `author`, `genre`, `year`, and `description` as props
+  - Displays book information in a styled card layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Links
+
+- **GitHub Repository:** [your-github-link-here]
+- **Live Website:** # Book Library Collection
+
+A React app showcasing a collection of books using a reusable `BookCard` component, built with Vite.
+
+## Features
+
+- Header section with title and subtitle
+- Reusable `BookCard` component to display book details
+- Books list rendered using the `map()` method
+- Summary section showing total books and most common genre
+- Footer with author name, contact, and current year
+
+## Components
+
+- **App.jsx**
+  - Stores the books data (array of objects)
+  - Renders the header, books list, summary, and footer
+  - Uses `map()` to render multiple `BookCard` components with a unique `key` prop
+
+- **BookCard.jsx**
+  - Reusable component
+  - Accepts `title`, `author`, `genre`, `year`, and `description` as props
+  - Displays book information in a styled card layout
+
+## Links
+
+- **GitHub Repository:** [your-github-link-here]
+- **Live Website:** # Book Library Collection
+
+A React app showcasing a collection of books using a reusable `BookCard` component, built with Vite.
+
+## Features
+
+- Header section with title and subtitle
+- Reusable `BookCard` component to display book details
+- Books list rendered using the `map()` method
+- Summary section showing total books and most common genre
+- Footer with author name, contact, and current year
+
+## Components
+
+- **App.jsx**
+  - Stores the books data (array of objects)
+  - Renders the header, books list, summary, and footer
+  - Uses `map()` to render multiple `BookCard` components with a unique `key` prop
+
+- **BookCard.jsx**
+  - Reusable component
+  - Accepts `title`, `author`, `genre`, `year`, and `description` as props
+  - Displays book information in a styled card layout
+
+## Links
+
+- **GitHub Repository:** [your-github-link-here]
+- **Live Website:**# Book Library Collection
+
+A React app showcasing a collection of books using a reusable `BookCard` component, built with Vite.
+
+## Features
+
+- Header section with title and subtitle
+- Reusable `BookCard` component to display book details
+- Books list rendered using the `map()` method
+- Summary section showing total books and most common genre
+- Footer with author name, contact, and current year
+
+## Components
+
+- **App.jsx**
+  - Stores the books data (array of objects)
+  - Renders the header, books list, summary, and footer
+  - Uses `map()` to render multiple `BookCard` components with a unique `key` prop
+
+- **BookCard.jsx**
+  - Reusable component
+  - Accepts `title`, `author`, `genre`, `year`, and `description` as props
+  - Displays book information in a styled card layout
+
+## Links
+
+- **GitHub Repository:**  https://github.com/asish2255/book-library.git
+- **Live Website:**  https://book-library-coral-six.vercel.app/
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
+
+## Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone <your-github-repo-link>
+
+
+
+
+
